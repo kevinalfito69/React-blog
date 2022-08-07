@@ -1,0 +1,54 @@
+@font-face {
+font-family: 'Cera Round Pro Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Cera Round Pro Regular'), url('./font/TypeMates  CeraRoundProRegular.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Cera Round Pro Thin';
+font-style: normal;
+font-weight: normal;
+src: local('Cera Round Pro Thin'), url('./font/TypeMates  CeraRoundProThin.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Cera Round Pro Light';
+font-style: normal;
+font-weight: normal;
+src: local('Cera Round Pro Light'), url('./font/TypeMates  CeraRoundProLight.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Cera Round Pro Medium';
+font-style: normal;
+font-weight: normal;
+src: local('Cera Round Pro Medium'), url('./font/TypeMates  CeraRoundProMedium.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Cera Round Pro Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Cera Round Pro Bold'), url('./font/TypeMates  Cera Round Pro Bold.woff') format('woff');
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  body{
+    font-family:'Cera Round Pro Regular'
+    @apply bg-slate-100
+  }
+  h1,h2{
+    font-family:'Cera Round Pro Bold'
+  }
+}
+.icon{
+  width: 11px;
+}
