@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className='container mx-auto pt-24'>
+      <div className='container mx-auto pt-24 px-4'>
     <Home/>
       </div>
 
