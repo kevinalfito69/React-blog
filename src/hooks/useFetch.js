@@ -6,8 +6,9 @@ const useFetch = (url)=>{
     // ?Gunakan [] pada akhir fungsi useEffect untuk menjalakannya hanya saat
     // !gunakan [name] *boleh isi sembarang, untuk menjalan kan pada saat sebuah state di render ulang
     useEffect(()=>{
+        const abortCon = new AbortController()
         setTimeout(()=>{
-            fetch(url)
+            fetch(url,{signal:abortCon.signal})
         .then(res =>{
             if(res.status === 200){
                 return res.json();
@@ -25,11 +26,10 @@ const useFetch = (url)=>{
             setError(err.message)
             setPending(false)
         })
-        },1000
-            
+        },
         )
+        return ()=> abortCon.abort
     },[url]);
-
     return { data, pending, error}
 }
 

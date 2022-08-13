@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const BlogList = ({blogs,title,}) => {
     return ( 
         <>
@@ -5,12 +7,12 @@ const BlogList = ({blogs,title,}) => {
         <div className="md:flex flex-wrap gap-1 justify-center">
         {
             blogs.map((data)=>(
-                    <div key={data.id} className='px-4 py-2 md:w-1/3  bg-white rounded-md shadow-md border relative'>
-                        <h2 className="text-lg">{data.title}</h2>
+                    <div key={data.id} className='px-4 py-2 md:w-1/3  bg-white rounded-md shadow-md border'>
+                        <Link to={`blog/${data.id}`}><h2 className="text-lg">{data.title}</h2></Link>
                         <p className=" text-slate-800 text-xs mb-4">Writen by: {data.author}</p>
-                        <p className="font-medium text-slate-400 text-sm pb-4">{data.body}</p>
-                        <p className=" bottom-2 right-2 absolute" href="">Baca Selengkapnya...</p>
-                        <button className="bg-red-500 text-white text-sm font-semibold py-1 px-2" >Delete Post</button>
+                        <p className="font-medium text-slate-400 text-sm pb-4 line-clamp-2">{data.body}</p>
+                        
+                        {/* <button className="bg-red-500 text-white text-sm font-semibold py-1 px-2" >Delete Post</button> */}
                     </div>
             ))
         }
