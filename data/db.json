@@ -1,42 +1,88 @@
 {
-    "blogs":[
-        
-            {
-                "id": 1,
-                "author": "Kevin Tekno",
-                "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
-                "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
-              },
-              {
-                  "id": 2,
-                  "author": "Putri Fatrilyam",
-                "title": "qui est esse",
-                "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
-              },
-              {
-                  "id": 3,
-                  "author": "Edi susanto",
-                "title": "ea molestias quasi exercitationem repellat qui ipsa sit aut",
-                "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
-              },
-              {
-                  "id": 4,
-                  "author": "Kevin Tekno",
-                "title": "eum et est occaecati",
-                "body": "ullam et saepe reiciendis voluptatem adipisci\nsit amet autem assumenda provident rerum culpa\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\nquis sunt voluptatem rerum illo velit"
-              },
-              {
-                  "id": 5,
-                  "author": "Putri Fatrilyam",
-                "title": "nesciunt quas odio",
-                "body": "repudiandae veniam quaerat sunt sed\nalias aut fugiat sit autem sed est\nvoluptatem omnis possimus esse voluptatibus quis\nest aut tenetur dolor neque"
-              },
-              {
-                  "id": 6,
-                  "author": "Putri Fatrilyam",
-                "title": "Electron localization in granular materials",
-                "body": "We have investigated the structural and electrical properties of granular Pd/C as well as granular Au/C thin firms. As revealed by transmission electron microscopy the films consist of small metallic clusters of either Pd or Au embedded within amorphous carbon. Films with low metal volume fraction x consist of structurally isolated clusters and show exponential resistance behavior. Above the so-called percolation threshold xp metallic clusters form a percolating network rendering metallic conductivity. For metallic films with x ≫ xp we observe two dimensional (2d) electronic transport behavior at low temperatures via small additional contributions to the Boltzmann-resistance as arising from weak electron localization (WEL) and enhanced electron-electron interaction (EEI). When approaching the percolation threshold these additional resistance contributions grow in absolute magnitude and the 2d transport behavior changes to 3d-behavior close to xp. For both cases resistance as well as magnetoresistance data can be well explained using theories for WEL and EEI in 2d and 3d respectively."
-              }
-    
-]
+  "blogs": [
+    {
+      "id": 1,
+      "author": "Kevin Tekno",
+      "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+      "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+    },
+    {
+      "id": 2,
+      "author": "Putri Fatrilyam",
+      "title": "qui est esse",
+      "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+    },
+    {
+      "id": 3,
+      "author": "Edi susanto",
+      "title": "ea molestias quasi exercitationem repellat qui ipsa sit aut",
+      "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
+    },
+    {
+      "id": 4,
+      "author": "Kevin Tekno",
+      "title": "eum et est occaecati",
+      "body": "ullam et saepe reiciendis voluptatem adipisci\nsit amet autem assumenda provident rerum culpa\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\nquis sunt voluptatem rerum illo velit"
+    },
+    {
+      "id": 5,
+      "author": "Putri Fatrilyam",
+      "title": "nesciunt quas odio",
+      "body": "repudiandae veniam quaerat sunt sed\nalias aut fugiat sit autem sed est\nvoluptatem omnis possimus esse voluptatibus quis\nest aut tenetur dolor neque"
+    },
+    {
+      "id": 6,
+      "author": "Putri Fatrilyam",
+      "title": "Electron localization in granular materials",
+      "body": "We have investigated the structural and electrical properties of granular Pd/C as well as granular Au/C thin firms. As revealed by transmission electron microscopy the films consist of small metallic clusters of either Pd or Au embedded within amorphous carbon. Films with low metal volume fraction x consist of structurally isolated clusters and show exponential resistance behavior. Above the so-called percolation threshold xp metallic clusters form a percolating network rendering metallic conductivity. For metallic films with x ≫ xp we observe two dimensional (2d) electronic transport behavior at low temperatures via small additional contributions to the Boltzmann-resistance as arising from weak electron localization (WEL) and enhanced electron-electron interaction (EEI). When approaching the percolation threshold these additional resistance contributions grow in absolute magnitude and the 2d transport behavior changes to 3d-behavior close to xp. For both cases resistance as well as magnetoresistance data can be well explained using theories for WEL and EEI in 2d and 3d respectively."
+    },
+    {
+      "title": "AYam",
+      "body": "Bakso",
+      "author": "Kevin ALfito",
+      "id": 7
+    },
+    {
+      "title": "Sebuah Postingan",
+      "body": "Blabla",
+      "author": "Kevin ALfito",
+      "id": 8
+    },
+    {
+      "title": "awdad@gmail.com",
+      "body": "awdawd",
+      "author": "Kevin ALfito",
+      "id": 9
+    },
+    {
+      "title": "Bakso",
+      "body": "Ayam",
+      "author": "",
+      "id": 10
+    },
+    {
+      "title": "Kamera",
+      "body": "Mejikom",
+      "author": "",
+      "id": 11
+    },
+    {
+      "title": "AYam",
+      "body": "Bakso",
+      "author": "",
+      "id": 12
+    },
+    {
+      "title": "pensil",
+      "body": "apoawd",
+      "author": "Kevin ALfito",
+      "id": 13
+    },
+    {
+      "title": "Baso",
+      "body": "Bulat",
+      "author": "Putri Fatrilyam",
+      "id": 14
+    }
+  ]
 }

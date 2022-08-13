@@ -10,9 +10,9 @@ const BlogDetail = () => {
             {error && <p>{error}</p>}
             {blog &&(
                 <article>
-                    <h2 className="text-2xl md:text-4xl ">BLog Details{blog.title}</h2>
+                    <h2 className="text-2xl md:text-4xl ">{blog.title}</h2>
                     <p className="text-sm">Created by : <span className="font-semibold">{blog.author}</span> </p>
-                    <p className="text-md  py-6 font-medium text-slate-700 ">BLog Details{blog.body}</p>
+                    <p className="text-md  py-6 font-medium text-slate-700 ">{blog.body}</p>
                 </article>
             )}
         </div>

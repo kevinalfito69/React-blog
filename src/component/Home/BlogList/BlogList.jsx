@@ -14,7 +14,7 @@ const BlogList = ({blogs,title,}) => {
                         
                         {/* <button className="bg-red-500 text-white text-sm font-semibold py-1 px-2" >Delete Post</button> */}
                     </div>
-            ))
+            )).reverse()
         }
         </div>
     </>
