@@ -4,6 +4,7 @@ import Create from './component/Create/Create';
 import Home from './component/Home/Home';
 import Navbar from './component/Navbar/Navbar';
 import BlogDetail from './component/BlogDetail/BlogDetail';
+import NotFound from './component/NotFound/NotFound';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
             <Route exact path="/" element={<Home/>}/>
             <Route path="/create" element={<Create/>}/>
             <Route path="/blog/:id" element={<BlogDetail/>}/>
+            <Route path='*' element={<NotFound/>}/>
           </Routes>
         </div>
     </Router> 
